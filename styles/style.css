@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+/* Header Section */
+.navBar {
+    background-color: black !important;
+    padding-top: 20px;
+   
+}
+
+.image-nav {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 13px;
+    font-family: "Crimson Pro", serif
+    
+}
+
+.links-color {
+    color: white;
+    margin-right: 30px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding-bottom: 10px;
+}
+
+.links-color:hover {
+    font-weight: 900;
+    border-bottom: 1px solid white;      
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Home Section */
+#home {
+    border: 3px solid red;
+    padding: 160px;
+    
+}
+
+#text-content {
+    border: 3px solid green;
+    padding: 100px;
+    margin: 20px;
+}
+
+#image-content {
+    border: 3px solid green;
+    padding: 100px;
+    margin: 20px;
+}
+
