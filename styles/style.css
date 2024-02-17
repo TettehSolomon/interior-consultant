@@ -46,26 +46,239 @@
 
 /* Home Section */
 #home {
-    border: 3px solid red;
-    padding: 160px;
+    padding: 90px 150px 90px 60px;
     
 }
 
 #text-content {
-    border: 3px solid green;
-    padding: 100px;
-    margin: 20px;
+    margin: 0 10px 10px 0;
+  
+    
+}
+
+#text-content h2 {
+    font-family: "Lora", serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#text-content p {
+    width: 410;
+    height: 145;
+    top: 482;
+    left: 77;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#text-content button {
+    top: 675px;
+    left: 77px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 17px 17px 17px 0;
+    border: none;
+
+
 }
 
 #image-content {
-    border: 3px solid green;
-    padding: 100px;
-    margin: 20px;
+    margin-right: -70px;
+    
+}
+ 
+#image-content img {
+    width: 737px;
+    height: 555px;
+    top: 245px;
+    left: 626px;
+
+}
+
+#card-container {
+    width: 410px;
+    height: 189px;
+    top: 722;
+    left: 921;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 295px;
+    box-shadow: 0px 4px 4px 0px #56535340;
+
+}
+
+.profile-flex-container {
+    padding: 20px;
+    display: flex;
+}
+
+
+
+.profile-picture {
+    padding: 7px;
+    
+}
+
+
+#card-container img {
+    width: 50px;
+    height: 50px;
+    top: 740px;
+    left: 952px;
+    border-radius: 30px;
+
+}
+
+
+
+.profile-details {
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    
+}
+
+.profile-details h3 {
+    width: 95px;
+    height: 17px;
+    top: 745px;
+    left: 1021px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.profile-details h4 {
+    width: 102px;
+    height: 15px;
+    top: 770px;
+    left: 1021px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+
+#card-container h5 {
+    width: 290px;
+    height: 62px;
+    top: 815px;
+    left: 947px;
+    font-family: "Lora";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    padding-left: 30px;
+
+} 
+
+footer {
+    width: auto;
+    height: auto;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+
+
 }
 
 @media screen and (max-width: 768px) {
+    #home {
+        padding: 40px;
+        
+    }
+
     .flex {
         flex-direction: column;
     
+    }
+
+    #image-content {
+        margin: 0;
+    }
+
+    #image-content img {
+        width: 351px;
+        height: 264.32px;
+        top: 323px;
+        left: 12px;  
+    }
+
+    #text-content {
+        margin-left: -57px;
+    }
+    #text-content p{
+        margin: 0;
+        width: 250px;
+        height: 85px;
+        top: 159px;
+        left: 12px;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #card-container {
+        width: 300px;
+        height: 120px;
+        top: 536px;
+        left: 52px;
+        margin-top: -585px;
+        margin-left: -12px;
+    }
+
+    .profile-flex-container {
+        margin: 0px;
+    }
+    
+    #card-container img {
+        width: 36.59px;
+        height: 36.59px;
+        top: 549.17px;
+        left: 74.68px;
+        border-radius: 30px;
+    }
+
+    #card-container h5 {
+        width: 210px;
+        height: 45px;
+        top: 604px;
+        left: 71px;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 20px;
+        
+    } 
+
+    footer p {
+        display: none;
     }
 }
